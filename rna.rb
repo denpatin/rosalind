@@ -1,10 +1,13 @@
-# USAGE:
+# Usage:
+# $ ruby rna.rb /path/to/the/file
+#
+# Problem task:
+# http://rosalind.info/problems/rna/
 #
 # Input:
-# $ ruby rna.rb /path/to/the/file-with-DNA-string
+# A DNA string t having length at most 1000 nt.
 #
 # Output:
-# The transcribed RNA string.
+# The transcribed RNA string of t.
 
-# Reading the DNA string, transcribing it, and outputting the RNA string
-puts File.open(ARGV[0]).read.gsub(/T/, 'U')
+open('rna.txt', 'w') { |f| f.write File.read(ARGV[0]).strip.gsub(/T/, 'U') }

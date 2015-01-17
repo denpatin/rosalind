@@ -1,15 +1,15 @@
-# USAGE:
+# Usage:
+# $ ruby revc.rb /path/to/the/file
+#
+# Problem task:
+# http://rosalind.info/problems/revc/
 #
 # Input:
-# $ ruby revc.rb /path/to/the/file-with-DNA-string
+# A DNA string s of length at most 1000 bp.
 #
 # Output:
-# The reverse complement of the DNA string.
+# The reverse complement s_c of s.
 
-def revc(string)
-  # Replacing each of the ACGT characters by the corresponding ones
-  # from the TGCA sequence, and reversing the string
-  string.strip.tr('ACGT', 'TGCA').reverse
+open('revc.txt', 'w') do |f|
+  f.write File.read(ARGV[0]).strip.tr('ACGT', 'TGCA').reverse
 end
-
-puts revc(File.open(ARGV[0]).read)
