@@ -8,3 +8,5 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
  - **Complementing a Strand of DNA**: [problem](http://rosalind.info/problems/revc/) | [solution](revc.rb)
  - **Rabbits and Recurrence Relations**: [problem](http://rosalind.info/problems/fib/) | [solution](fib.rb)
  - 
+
+_PS. All the solution are proudly [rubocop](https://github.com/bbatsov/rubocop)ped_.
