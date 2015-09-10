@@ -1,21 +1,71 @@
 Rosalind problems
 =================
 
-My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view/) with the following programmin languages:
+My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view/).
 
-* [Ruby](ruby/README.md)
-* [Perl](perl/README.md)
-* [Go](go/README.md)
-* [Rust](rust/README.md)
-* [Julia](julia/README.md)
+## Languages
+
 * [C](c/README.md)
-* [Scala](scala/README.md)
 * [Elixir](elixir/README.md)
+* [Go](go/README.md)
 * [Java](java/README.md)
+* [Julia](julia/README.md)
+* [OCaml](ocaml/README.md)
+* [Perl](perl/README.md)
 * [Python](python/README.md)
+* [Ruby](ruby/README.md)
+* [Rust](rust/README.md)
+* [Scala](scala/README.md)
 
-Tasks
-=====
+### Language Overview
+
+|Language\Paradigm|Object-Oriented|Imperative|Functional|Reflective|Concurrent|Structured|
+|:---------------:|:-------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|C|||||||
+|Elixir|||||||
+|Go|||||||
+|Java|||||||
+|Julia|||||||
+|OCaml|||||||
+|Perl|||||||
+|Python|||||||
+|Ruby|||||||
+|Rust|||||||
+|Scala|||||||
+
+<br />
+
+|Language\Typing|Duck|Static|Dynamic|Weak|Strong|Safe|
+|:-------------:|:--:|:----:|:-----:|:--:|:----:|:--:|
+|C|||||||
+|Elixir|||||||
+|Go|||||||
+|Java|||||||
+|Julia|||||||
+|OCaml|||||||
+|Perl|||||||
+|Python|||||||
+|Ruby|||||||
+|Rust|||||||
+|Scala|||||||
+
+<br />
+
+|Language\Info|Year|Developer|Version|Platform|
+|:-----------:|:--:|:-------:|:-----:|:------:|
+|C|||||
+|Elixir|||||
+|Go|||||
+|Java|||||
+|Julia|||||
+|OCaml|||||
+|Perl|||||
+|Python|||||
+|Ruby|||||
+|Rust|||||
+|Scala|||||
+
+## Tasks
 
 1. Counting DNA Nucleotides: [ruby](ruby/dna.rb)
 * Transcribing DNA into RNA: [ruby](ruby/rna.rb)
