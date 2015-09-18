@@ -7,10 +7,12 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 
 * [C](c/README.md)
 * [Crystal](crystal/README.md)
+* [D](d/README.md)
 * [Elixir](elixir/README.md)
 * [Go](go/README.md)
 * [Java](java/README.md)
 * [Julia](julia/README.md)
+* [Nim](nim/README.md)
 * [OCaml](ocaml/README.md)
 * [Perl](perl/README.md)
 * [Python](python/README.md)
@@ -24,10 +26,12 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |:---------------:|:-------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 |C|||||||
 |Crystal|||||||
+|D|||||||
 |Elixir|||||||
 |Go|||||||
 |Java|||||||
 |Julia|||||||
+|Nim|||||||
 |OCaml|||||||
 |Perl|||||||
 |Python|||||||
@@ -41,10 +45,12 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |:-------------:|:--:|:----:|:-----:|:--:|:----:|:--:|
 |C|||||||
 |Crystal|||||||
+|D|||||||
 |Elixir|||||||
 |Go|||||||
 |Java|||||||
 |Julia|||||||
+|Nim|||||||
 |OCaml|||||||
 |Perl|||||||
 |Python|||||||
@@ -58,10 +64,12 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |:-----------:|:--:|:-------:|:-----:|:------:|
 |C|||||
 |Crystal|||||
+|D|||||
 |Elixir|||||
 |Go|||||
 |Java|||||
 |Julia|||||
+|Nim|||||
 |OCaml|||||
 |Perl|||||
 |Python|||||
