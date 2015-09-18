@@ -6,6 +6,7 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 ## Languages
 
 * [C](c/README.md)
+* [Crystal](crystal/README.md)
 * [Elixir](elixir/README.md)
 * [Go](go/README.md)
 * [Java](java/README.md)
@@ -22,6 +23,7 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |Language\Paradigm|Object-Oriented|Imperative|Functional|Reflective|Concurrent|Structured|
 |:---------------:|:-------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 |C|||||||
+|Crystal|||||||
 |Elixir|||||||
 |Go|||||||
 |Java|||||||
@@ -38,6 +40,7 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |Language\Typing|Duck|Static|Dynamic|Weak|Strong|Safe|
 |:-------------:|:--:|:----:|:-----:|:--:|:----:|:--:|
 |C|||||||
+|Crystal|||||||
 |Elixir|||||||
 |Go|||||||
 |Java|||||||
@@ -54,6 +57,7 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |Language\Info|Year|Developer|Version|Platform|
 |:-----------:|:--:|:-------:|:-----:|:------:|
 |C|||||
+|Crystal|||||
 |Elixir|||||
 |Go|||||
 |Java|||||
