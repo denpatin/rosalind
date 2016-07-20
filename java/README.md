@@ -1,2 +1,0 @@
-Solutions in Java
-=================
