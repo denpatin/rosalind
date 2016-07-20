@@ -26,7 +26,6 @@ GATGGAACTTGACTACGTAAATT
     result = <<-RESULT
 GAUGGAACUUGACUACGUAAAUU
     RESULT
-    get = Rosalind.new data
     it 'returns the transcribed RNA string of a DNA string' do
       expect(Rosalind.new(data).rna).to eq(result.strip)
     end
