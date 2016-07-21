@@ -1,6 +1,9 @@
 # encoding: utf-8
 
 require_relative 'rosalind'
+require 'coveralls'
+
+Coveralls.wear!
 
 describe Rosalind do
   # Given: A DNA string of length at most 1000 nt.

@@ -1,0 +1,6 @@
+language: ruby
+rvm: 2.2
+install:
+- gem install rspec --no-ri --no-rdoc
+- gem install coveralls --no-ri --no-rdoc
+script: rspec *_spec.rb --format progress

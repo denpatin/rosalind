@@ -1,6 +1,10 @@
 Rosalind problems
 =================
 
+[![Build Status](https://travis-ci.org/denpatin/ruby-rosalind.svg?branch=master)](https://travis-ci.org/denpatin/ruby-rosalind)
+[![Code Climate](https://codeclimate.com/github/denpatin/ruby-rosalind/badges/gpa.svg)](https://codeclimate.com/github/denpatin/ruby-rosalind)
+[![Coverage Status](https://coveralls.io/repos/github/denpatin/ruby-rosalind/badge.svg?branch=master)](https://coveralls.io/github/denpatin/ruby-rosalind?branch=master)
+
 My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view/) with **Ruby**.
 
 ## Problems and Solutions
