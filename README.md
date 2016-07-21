@@ -11,12 +11,12 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 
 |Problem title|Solution file|
 |:-----------:|:-----------:|
-|Counting DNA Nucleotides|[DNA](dna.rb)|
-|Transcribing DNA into RNA|[RNA](rna.rb)|
-|Complementing a Strand of DNA|[REVC](revc.rb)|
-|Rabbits and Recurrence Relations|[FIB](fib.rb)|
-|Computing GC Content|[GC](gc.rb)|
-|Counting Point Mutations||
+|Counting DNA Nucleotides|[DNA](rosalind.rb#L9)|
+|Transcribing DNA into RNA|[RNA](rosalind.rb#L13)|
+|Complementing a Strand of DNA|[REVC](rosalind.rb#L17)|
+|Rabbits and Recurrence Relations|[FIB](rosalind.rb#L21)|
+|Computing GC Content|[GC](rosalind.rb#L33)|
+|Counting Point Mutations|[HAMM](rosalind.rb#L46)|
 |Mendel's First Law||
 |Translating RNA into Protein||
 |Finding a Motif in DNA||

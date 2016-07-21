@@ -42,4 +42,14 @@ class Rosalind
     result[1] = format '%.6f', result[1]
     result.join "\n"
   end
+
+  def hamm
+    hamm = 0
+    dna1, dna2 = @data.split("\n").map(&:chars)
+    dna1.each_with_index { |el, index| hamm += 1 unless dna2[index] == el }
+    hamm
+  end
 end
+
+dataset = File.read(ARGV[0])
+puts Rosalind.new(dataset)

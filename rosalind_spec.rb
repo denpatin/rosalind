@@ -54,7 +54,7 @@ ACCGGGTTTT
     describe 'when input data is correct' do
       data = '5 3'
       result = 19
-      it 'returns the total number of rabbit pairs that will be present after n months' do
+      it 'returns the total num of rabbit pairs that will be after n months' do
         expect(Rosalind.new(data).fib).to eq(result)
       end
     end
@@ -92,8 +92,21 @@ TGGGAACCTGCGGGCAGTAGGTGGAAT
 Rosalind_0808
 60.919540
     RESULT
-    it 'returns the ID of the string with the highest GC-content with content' do
+    it 'returns the ID of the string with the max GC-content with content' do
       expect(Rosalind.new(data).gc).to eq(result.strip)
+    end
+  end
+
+  # Given: Two DNA strings and of equal length (not exceeding 1 kbp)
+  #
+  describe 'HAMM: Counting Point Mutations' do
+    data = <<-DATASET
+GAGCCTACTAACGGGAT
+CATCGTAATGACGGCCT
+    DATASET
+    result = 7
+    it 'returns the Hamming distance' do
+      expect(Rosalind.new(data).hamm).to eq(result)
     end
   end
 
