@@ -116,8 +116,3 @@ My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view
 |Local Alignment with Affine Gap Penalty||
 |Isolating Symbols in Alignments||
 |Identifying Reversing Substitutions||
-
-## TODO
-
-- [ ] Wrap the existing solutions in methods
-- [ ] Write spec for each problem
