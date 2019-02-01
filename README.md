@@ -3,30 +3,16 @@ Rosalind problems
 
 My endeavor to solve [Rosalind problems](http://rosalind.info/problems/list-view/) with [Ruby](https://www.ruby-lang.org), [Crystal](https://crystal-lang.org), [Go](https://golang.org), and [Java](https://java.com).
 
-## How to Run
-
-`./main.sh {LANG} {TASK} {INPUT}`
-
-* {LANG}: &nbsp;Currently only `ruby` or `crystal` are supported.
-* {TASK}: &nbsp;&nbsp;The name of one of the below listed tasks, e.g. `dna` or `gc`.
-* {INPUT}: Either a path to the file with the input data, or the input data itself.
-
-Usage examples:
-
-`./main.sh ruby dna AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC`
-
-`./main.sh crystal dna ~/Downloads/rosalind_dna.txt`
-
 ## Problems and Solutions
 
 |Problem title|Solution file|
 |:-----------:|:-----------:|
-|Counting DNA Nucleotides|[Ruby](dna.rb), [Crystal](dna.cr), [Go](dna.go), [Java](Dna.java)|
-|Transcribing DNA into RNA|[Ruby](rna.rb)|
-|Complementing a Strand of DNA|[Ruby](revc.rb)|
-|Rabbits and Recurrence Relations|[Ruby](fib.rb)|
-|Computing GC Content|[Ruby](gc.rb), [Crystal](gc.cr)|
-|Counting Point Mutations|[Ruby](hamm.rb)|
+|Counting DNA Nucleotides|[C](dna/dna.c), [Ruby](dna/dna.rb), [Crystal](dna/dna.cr), [Go](dna/dna.go), [Java](dna/Dna.java)|
+|Transcribing DNA into RNA|[Ruby](rna/rna.rb)|
+|Complementing a Strand of DNA|[Ruby](revc/revc.rb)|
+|Rabbits and Recurrence Relations|[Ruby](fib/fib.rb)|
+|Computing GC Content|[Ruby](gc.rb), [Crystal](gc/gc.cr)|
+|Counting Point Mutations|[Ruby](hamm/hamm.rb)|
 |Mendel's First Law||
 |Translating RNA into Protein||
 |Finding a Motif in DNA||
